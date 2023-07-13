@@ -16,12 +16,12 @@ function menu(){
             setTimeout(()=>{
                 list.style.display = "none";
                 body.style.display = "none";
-            }, 500);
+            }, 400);
 
         })
     })
 }
 
-if(window.screen.width <= 375){
+if(window.screen.width <= 425){
     menu();
 }
